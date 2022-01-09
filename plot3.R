@@ -20,7 +20,7 @@ dat$datetime <- as.POSIXct(strptime(paste(dat$Date,dat$Time,sep=" "),format = "%
 png(filename="plot3.png",height=480,width=480,units="px")
 with(dat, {
         plot(Sub_metering_1~datetime, type="l",
-             ylab="Global Active Power (kilowatts)", xlab="")
+             ylab="Energy sub metering", xlab="")
         lines(Sub_metering_2~datetime,col='Red')
         lines(Sub_metering_3~datetime,col='Blue')
         }
