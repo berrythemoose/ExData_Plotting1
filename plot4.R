@@ -1,4 +1,4 @@
-## plot2.R
+## plot4.R
 
 ## reading data into R
 if(!file.exists("exdata_data_household_power_consumption.zip")) {
